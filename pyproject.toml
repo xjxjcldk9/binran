@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "binran"
+version = "1.0"
+
+[project.scripts]
+binran = "binran:run_binran"
